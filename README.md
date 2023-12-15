@@ -1,7 +1,8 @@
 
 # CI/CD Pipeline with Vagrant
 
-This repository contains configurations for setting up a CI/CD pipeline environment using Vagrant. The pipeline includes Jenkins, SonarQube, and Nexus running on separate virtual machines.
+Welcome to the CI/CD Pipeline with Vagrant repository! This project provides configurations for setting up a CI/CD pipeline environment using Vagrant. The pipeline includes Jenkins for automation, SonarQube for code quality analysis, and Nexus for artifact repository management, all running on separate virtual machines. 
+With this easy-to-use solution, you can effortlessly simulate your entire CI/CD workflow in a controlled and scalable environment, ensuring seamless integration and deployment of your projects.
 
 
 
@@ -27,8 +28,8 @@ Ensure you have the following tools installed:
 1. Clone the repository:
 
    ```bash
-   `git clone https://github.com/Abhangiri/CI-CD_Pipeline_With_Vagrant.git`
-   `cd CI-CD_Pipeline_With_Vagrant`
+   git clone https://github.com/Abhangiri/CI-CD_Pipeline_With_Vagrant.git
+   cd CI-CD_Pipeline_With_Vagrant
 
 
 2. Start the virtual machines:
@@ -37,9 +38,15 @@ Ensure you have the following tools installed:
 
 3. Access the services:
 
+<<<<<<< HEAD
 - **Jenkins:** [http://10.3.20.17:8080](http://10.3.20.17:8080)
 - **SonarQube:** [http://10.3.20.19:9000](http://10.3.20.19:9000)
 - **Nexus:** [http://10.3.20.18:8081](http://10.3.20.18:8081)
+=======
+- **Jenkins:** [http://10.3.20.11:8080](http://10.3.20.17:8080)
+- **SonarQube:** [http://10.3.20.13:9000](http://10.3.20.18:9000)
+- **Nexus:** [http://10.3.20.12:8081](http://10.3.20.19:8081)
+>>>>>>> bf937073c4d04925d3aed948c22ba78a72e39e02
 
 4. Log in to Jenkins using the initial admin password found in the Jenkins VM at
  `/var/lib/jenkins/secrets/initialAdminPassword`.
