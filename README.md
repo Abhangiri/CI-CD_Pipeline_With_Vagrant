@@ -27,8 +27,8 @@ Ensure you have the following tools installed:
 1. Clone the repository:
 
    ```bash
-   `git clone https://github.com/Abhangiri/CI-CD_Pipeline_With_Vagrant.git`
-   `cd CI-CD_Pipeline_With_Vagrant`
+   git clone https://github.com/Abhangiri/CI-CD_Pipeline_With_Vagrant.git
+   cd CI-CD_Pipeline_With_Vagrant
 
 
 2. Start the virtual machines:
