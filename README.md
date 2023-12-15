@@ -38,15 +38,10 @@ Ensure you have the following tools installed:
 
 3. Access the services:
 
-<<<<<<< HEAD
 - **Jenkins:** [http://10.3.20.17:8080](http://10.3.20.17:8080)
 - **SonarQube:** [http://10.3.20.19:9000](http://10.3.20.19:9000)
 - **Nexus:** [http://10.3.20.18:8081](http://10.3.20.18:8081)
-=======
-- **Jenkins:** [http://10.3.20.11:8080](http://10.3.20.17:8080)
-- **SonarQube:** [http://10.3.20.13:9000](http://10.3.20.18:9000)
-- **Nexus:** [http://10.3.20.12:8081](http://10.3.20.19:8081)
->>>>>>> bf937073c4d04925d3aed948c22ba78a72e39e02
+
 
 4. Log in to Jenkins using the initial admin password found in the Jenkins VM at
  `/var/lib/jenkins/secrets/initialAdminPassword`.
